@@ -1,6 +1,7 @@
 {
     "name": "krepysh-spec/steam-enums",
     "type": "library",
+    "homepage": "https://github.com/krepysh-spec/steam-enums",
     "license": "MIT",
     "description": "",
     "keywords": [
