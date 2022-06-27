@@ -10,5 +10,3 @@ enum SteamApp: int
     case Dota2 = 570;
     case PUBG  = 578080;
 }
-
-

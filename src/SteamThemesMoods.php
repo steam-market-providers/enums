@@ -6,5 +6,4 @@ namespace KrepyshSpec\SteamEnums;
 
 enum SteamThemesMoods
 {
-
 }

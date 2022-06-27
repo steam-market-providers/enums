@@ -6,27 +6,6 @@ namespace KrepyshSpec\SteamEnums\Genre;
 
 enum SteamGenre: string
 {
-    case Tabletop = "";
-    case Party_Based_RPG = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
-    case Tabletop = "";
+    case Tabletop = "1";
+    case Party_Based_RPG = "2";
 }

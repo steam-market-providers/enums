@@ -6,7 +6,7 @@ namespace KrepyshSpec\SteamEnums;
 
 enum SteamPlatform: string
 {
-    case Linux_SteamOS = "";
-    case MacOS = "";
-    case Windows = "";
+    case Linux_SteamOS = "1";
+    case MacOS = "2";
+    case Windows = "3";
 }
