@@ -3,11 +3,13 @@
     "type": "library",
     "homepage": "https://github.com/krepysh-spec/steam-enums",
     "license": "MIT",
-    "description": "",
+    "description": "This library contains useful values that the Steam platform uses. For example filters, tags, currencies, categories. If you work with the market place, or parse Steam, you will need it.",
     "keywords": [
         "krepysh",
         "steam",
         "steam-enums",
+        "steam-filters",
+        "steam-parsing",
         "steam-list",
         "steam-market",
         "steam-platform",
@@ -32,7 +34,7 @@
         }
     },
     "require": {
-        "php": "^8.1"
+        "php": ">=8.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
