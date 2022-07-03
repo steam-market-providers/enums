@@ -8,5 +8,4 @@ enum SteamApp: int
 {
     case CSGO  = 730;
     case Dota2 = 570;
-    case PUBG  = 578080;
 }
