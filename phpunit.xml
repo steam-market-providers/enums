@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <phpunit colors="true" bootstrap="vendor/autoload.php">
-    <coverage>
+    <coverage processUncoveredFiles="true">
         <include>
             <directory>./src</directory>
         </include>

@@ -12,6 +12,7 @@ jobs:
       - run: php -v
       - run: composer install --no-interaction
       - run: XDEBUG_MODE=coverage php vendor/bin/phpunit --coverage-text
+      - run: composer test
 workflows:
   version: 2
   build:
