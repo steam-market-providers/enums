@@ -28,7 +28,7 @@ composer require krepysh-spec/steam-enums
 
 ### Implementation List
 
-- [x] Steam App (Now only popular games CS:GO, Dota 2)
+- [x] Steam App
 - [x] Steam Currency
 - [x] Steam Language
 - [x] Steam Global tag
