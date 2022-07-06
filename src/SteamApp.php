@@ -42,7 +42,7 @@ enum SteamApp: int
     case Children_of_Orc = 544840;
     case Clatter = 602770;
     case Comedy_Night = 665360;
-    case CS_GO = 730;
+    case CSGO = 730;
     case CounterAttack = 451600;
     case Crimson_Tide_Operation_Online = 684130;
     case Darts_and_Friends = 832680;
@@ -56,7 +56,7 @@ enum SteamApp: int
     case Dinosaur_Forest = 506730;
     case Dinosaur_Hunt = 401190;
     case Dont_Starve_Together = 322330;
-    case Dota_2 = 570;
+    case Dota2 = 570;
     case Drunken_Wrestlers_2 = 667530;
     case Ember_Strike = 374670;
     case Emily_is_Away = 417860;
