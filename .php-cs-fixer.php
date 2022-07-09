@@ -4,7 +4,8 @@ use PhpCsFixer\Config;
 use PhpCsFixer\Finder;
 
 $finder = Finder::create()
-    ->in(__DIR__ . '/src');
+    ->in(__DIR__ . '/src')
+    ->in(__DIR__ . '/tests');
 
 $config = new Config();
 return $config->setRules([

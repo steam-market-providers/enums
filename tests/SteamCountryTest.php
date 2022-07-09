@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace KrepyshSpec\SteamEnums\Tests;
 
-use KrepyshSpec\SteamEnums\SteamThemesMoods;
+use KrepyshSpec\SteamEnums\SteamCountry;
 use PHPUnit\Framework\TestCase;
 
-class SteamThemesMoodsTest extends TestCase
+class SteamCountryTest extends TestCase
 {
     public function testGetAll(): void
     {
-        $this->assertIsArray(SteamThemesMoods::cases());
+        $this->assertIsArray(SteamCountry::cases());
     }
 }
