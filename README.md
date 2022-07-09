@@ -33,7 +33,7 @@ composer require krepysh-spec/steam-enums
 - [x] Steam Language
 - [x] Steam Global tag
 - [x] Steam Platform
-- [ ] Steam Countries
+- [x] Steam Countries
 - [ ] Steam Players
 - [ ] Steam Visuals
 - [ ] Steam Themes moods
