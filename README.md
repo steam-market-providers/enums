@@ -1,5 +1,8 @@
 # 🎮 Steam enums - simple list of useful values 👾
 [![Build Status](https://circleci.com/gh/steam-market-providers/enums.svg?style=shield)](https://circleci.com/gh/steam-market-providers/enums)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/steam-market-providers/enums/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/steam-market-providers/enums/?branch=main)
+[![Code Coverage](https://scrutinizer-ci.com/g/steam-market-providers/enums/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/steam-market-providers/enums/?branch=main)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/steam-market-providers/enums/badges/code-intelligence.svg?b=main)](https://scrutinizer-ci.com/code-intelligence)
 [![Latest Stable Version](http://poser.pugx.org/steam-market-providers/enums/v)](https://packagist.org/packages/steam-market-providers/enums)
 [![Total Downloads](http://poser.pugx.org/steam-market-providers/enums/downloads)](https://packagist.org/packages/steam-market-providers/enums)
 [![Latest Unstable Version](http://poser.pugx.org/steam-market-providers/enums/v/unstable)](https://packagist.org/packages/steam-market-providers/enums)
