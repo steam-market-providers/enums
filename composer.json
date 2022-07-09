@@ -1,7 +1,7 @@
 {
-    "name": "krepysh-spec/steam-enums",
+    "name": "steam-market-providers/enums",
     "type": "library",
-    "homepage": "https://github.com/krepysh-spec/steam-enums",
+    "homepage": "https://github.com/steam-market-providers/enums",
     "license": "MIT",
     "description": "This library contains useful values that the Steam platform uses. For example filters, tags, currencies, categories. If you work with the market place, or parse Steam, you will need it.",
     "keywords": [
@@ -25,12 +25,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "KrepyshSpec\\SteamEnums\\": "src/"
+            "SteamMarketProviders\\Enums\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "KrepyshSpec\\SteamEnums\\Tests\\": "tests/"
+            "SteamMarketProviders\\Enums\\Tests\\": "tests/"
         }
     },
     "require": {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace KrepyshSpec\SteamEnums\Genre;
+namespace SteamMarketProviders\Enum\Genre;
 
 class SteamSubGenre
 {

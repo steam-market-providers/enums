@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace KrepyshSpec\SteamEnums\Tests;
+namespace SteamMarketProviders\Enum\Tests;
 
-use KrepyshSpec\SteamEnums\SteamCurrency;
+use SteamMarketProviders\Enum\SteamCurrency;
 use PHPUnit\Framework\TestCase;
 
 class SteamCurrencyTest extends TestCase

@@ -23,7 +23,7 @@ If you are developing under steam, this library will come in handy.
 
 ### Install
 ```bash
-composer require krepysh-spec/steam-enums
+composer require steam-market-providers/enums
 ```
 
 ### Implementation List
@@ -90,6 +90,21 @@ Using here [Steam browse tag](https://store.steampowered.com/tag/browse/)
 ```php
 echo SteamGlobalTag::Survival->name; // Survival
 echo SteamGlobalTag::Survival->value; // 1662
+```
+
+### Steam Platforms
+Total platforms ***3***
+```php
+echo SteamPlatform::MacOS->name; // MacOS
+echo SteamPlatform::MacOS->value; // mac
+```
+
+### Steam Countries
+Total platforms ***259***
+
+```php
+echo SteamCountry::United_States->name; // United_States
+echo SteamCountry::United_States->value; // US
 ```
 
 ### Support

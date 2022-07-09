@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace KrepyshSpec\SteamEnums\Genre;
+namespace SteamMarketProviders\Enum\Genre;
 
 enum SteamTopLevelGenre: string
 {

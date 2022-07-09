@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace KrepyshSpec\SteamEnums;
+namespace SteamMarketProviders\Enum;
 
 enum SteamPlatform: string
 {

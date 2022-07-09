@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace KrepyshSpec\SteamEnums\Tests;
+namespace SteamMarketProviders\Enum\Tests;
 
-use KrepyshSpec\SteamEnums\SteamLanguage;
+use SteamMarketProviders\Enum\SteamLanguage;
 use PHPUnit\Framework\TestCase;
 
 class SteamLanguageTest extends TestCase

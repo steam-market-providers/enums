@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace KrepyshSpec\SteamEnums\Tests;
+namespace SteamMarketProviders\Enum\Tests;
 
-use KrepyshSpec\SteamEnums\SteamApp;
+use SteamMarketProviders\Enum\SteamApp;
 use PHPUnit\Framework\TestCase;
 
 class SteamAppTest extends TestCase

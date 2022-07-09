@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace KrepyshSpec\SteamEnums\Tests;
+namespace SteamMarketProviders\Enum\Tests;
 
-use KrepyshSpec\SteamEnums\SteamThemesMoods;
+use SteamMarketProviders\Enum\SteamThemesMoods;
 use PHPUnit\Framework\TestCase;
 
 class SteamThemesMoodsTest extends TestCase

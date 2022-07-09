@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace KrepyshSpec\SteamEnums\Tests;
+namespace SteamMarketProviders\Enum\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Process\Process;
