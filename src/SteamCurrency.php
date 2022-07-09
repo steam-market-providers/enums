@@ -38,12 +38,4 @@ enum SteamCurrency: int
     case TWD = 30;  # New Taiwan dollar
     case SAR = 31;  # Saudi riyal
     case AED = 32;  # United Arab Emirates dirham
-
-    /**
-     * @return $this
-     */
-    public function default(): self
-    {
-        return self::USD;
-    }
 }

@@ -13,4 +13,11 @@ class SteamLanguageTest extends TestCase
     {
         $this->assertIsArray(SteamLanguage::cases());
     }
+
+    public function testReturnedType(): void
+    {
+        foreach (SteamLanguage::cases() as $data) {
+            $this->assertIsString($data->value);
+        }
+    }
 }

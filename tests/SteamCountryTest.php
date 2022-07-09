@@ -13,4 +13,11 @@ class SteamCountryTest extends TestCase
     {
         $this->assertIsArray(SteamCountry::cases());
     }
+
+    public function testReturnedType(): void
+    {
+        foreach (SteamCountry::cases() as $data) {
+            $this->assertIsString($data->value);
+        }
+    }
 }

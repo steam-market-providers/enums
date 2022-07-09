@@ -13,4 +13,11 @@ class SteamCurrencyTest extends TestCase
     {
         $this->assertIsArray(SteamCurrency::cases());
     }
+
+    public function testReturnedType(): void
+    {
+        foreach (SteamCurrency::cases() as $data) {
+            $this->assertIsInt($data->value);
+        }
+    }
 }

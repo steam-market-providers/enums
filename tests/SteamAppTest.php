@@ -13,4 +13,11 @@ class SteamAppTest extends TestCase
     {
         $this->assertIsArray(SteamApp::cases());
     }
+
+    public function testReturnedType(): void
+    {
+        foreach (SteamApp::cases() as $data) {
+            $this->assertIsInt($data->value);
+        }
+    }
 }

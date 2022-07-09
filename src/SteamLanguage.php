@@ -34,12 +34,4 @@ enum SteamLanguage: string
     case Thai                  = "thai";
     case Turkish               = "turkish";
     case Vietnamese            = "vietnamese";
-
-    /**
-     * @return $this
-     */
-    public function default(): self
-    {
-        return self::English;
-    }
 }
