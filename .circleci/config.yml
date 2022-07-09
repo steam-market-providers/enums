@@ -6,7 +6,7 @@ version: 2
 jobs:
   php81:
     docker:
-      - image: circleci/php:8.1-cli-node-browsers
+      - image: cimg/php:8.1
     steps:
       - checkout
       - run: php -v
