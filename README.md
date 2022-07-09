@@ -2,8 +2,9 @@
 [![Build Status](https://circleci.com/gh/steam-market-providers/enums.svg?style=shield)](https://circleci.com/gh/steam-market-providers/enums)
 [![Latest Stable Version](http://poser.pugx.org/steam-market-providers/enums/v)](https://packagist.org/packages/steam-market-providers/enums)
 [![Total Downloads](http://poser.pugx.org/steam-market-providers/enums/downloads)](https://packagist.org/packages/steam-market-providers/enums)
-[![Latest Unstable Version](http://poser.pugx.org/steam-market-providers/enums/v/unstable)](https://packagist.org/packages/steam-market-providers/enums
+[![Latest Unstable Version](http://poser.pugx.org/steam-market-providers/enums/v/unstable)](https://packagist.org/packages/steam-market-providers/enums)
 [![License](http://poser.pugx.org/steam-market-providers/enums/license)](https://packagist.org/packages/steam-market-providers/enums) [![PHP Version Require](http://poser.pugx.org/steam-market-providers/enums/require/php)](https://packagist.org/packages/steam-market-providers/enums)
+
 
 This library has collected all the necessary values of filters, currencies, countries, categories, and so on from the Steam service.
 If you are developing under steam, this library will come in handy.
