@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace SteamMarketProviders\Enum\Tests;
+namespace SteamMarketProviders\Enums\Tests;
 
-use SteamMarketProviders\Enum\SteamThemesMoods;
+use SteamMarketProviders\Enums\SteamThemesMoods;
 use PHPUnit\Framework\TestCase;
 
 class SteamThemesMoodsTest extends TestCase

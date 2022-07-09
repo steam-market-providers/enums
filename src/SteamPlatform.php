@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SteamMarketProviders\Enum;
+namespace SteamMarketProviders\Enums;
 
 enum SteamPlatform: string
 {

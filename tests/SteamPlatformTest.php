@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace SteamMarketProviders\Enum\Tests;
+namespace SteamMarketProviders\Enums\Tests;
 
-use SteamMarketProviders\Enum\SteamPlatform;
+use SteamMarketProviders\Enums\SteamPlatform;
 use PHPUnit\Framework\TestCase;
 
 class SteamPlatformTest extends TestCase

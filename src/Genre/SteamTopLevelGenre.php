@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SteamMarketProviders\Enum\Genre;
+namespace SteamMarketProviders\Enums\Genre;
 
 enum SteamTopLevelGenre: string
 {

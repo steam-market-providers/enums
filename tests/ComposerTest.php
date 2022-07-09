@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SteamMarketProviders\Enum\Tests;
+namespace SteamMarketProviders\Enums\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Process\Process;

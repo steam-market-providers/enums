@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace SteamMarketProviders\Enum\Tests;
+namespace SteamMarketProviders\Enums\Tests;
 
-use SteamMarketProviders\Enum\SteamPlayers;
+use SteamMarketProviders\Enums\SteamPlayers;
 use PHPUnit\Framework\TestCase;
 
 class SteamPlayersTest extends TestCase
