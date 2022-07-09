@@ -11,9 +11,6 @@ build:
       dependencies:
         before:
           - sudo apt update -y
-          - sudo apt install -y libyaml-dev
-          - pecl channel-update pecl.php.net
-          - pecl install yaml
       tests:
         override:
           - command: XDEBUG_MODE=coverage php vendor/bin/phpunit --coverage-clover coverage.xml

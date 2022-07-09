@@ -9,11 +9,6 @@ jobs:
       - image: circleci/php:8.0-cli-node-browsers
     steps:
       - checkout
-      - run: sudo apt update -y
-      - run: sudo apt install -y libyaml-dev
-      - run: sudo pecl channel-update pecl.php.net
-      - run: sudo pecl install yaml
-      - run: sudo docker-php-ext-enable yaml
       - run: php -v
       - run: composer install --no-interaction
       - run: XDEBUG_MODE=coverage php vendor/bin/phpunit --coverage-text
