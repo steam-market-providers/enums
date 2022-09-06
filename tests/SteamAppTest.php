@@ -20,4 +20,24 @@ class SteamAppTest extends TestCase
             $this->assertIsInt($data->value);
         }
     }
+
+    public function testInvokableCases(): void
+    {
+        $this->assertEquals(SteamApp::CSGO(), 730);
+    }
+
+    public function testNames(): void
+    {
+        $this->assertIsArray(SteamApp::names());
+    }
+
+    public function testValues(): void
+    {
+        $this->assertIsArray(SteamApp::values());
+    }
+
+    public function testOptions(): void
+    {
+        $this->assertIsArray(SteamApp::options());
+    }
 }

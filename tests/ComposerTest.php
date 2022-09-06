@@ -9,7 +9,7 @@ use Symfony\Component\Process\Process;
 
 class ComposerTest extends TestCase
 {
-    public function testComposer()
+    public function testComposer(): void
     {
         $process = Process::fromShellCommandline('composer validate');
         $code = $process->run();

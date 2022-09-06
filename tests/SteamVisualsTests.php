@@ -13,4 +13,24 @@ class SteamVisualsTests extends TestCase
     {
         $this->assertIsArray(SteamVisuals::cases());
     }
+//
+//    public function testInvokableCases(): void
+//    {
+//
+//    }
+//
+//    public function testNames(): void
+//    {
+//
+//    }
+//
+//    public function testValues(): void
+//    {
+//
+//    }
+//
+//    public function testOptions(): void
+//    {
+//
+//    }
 }

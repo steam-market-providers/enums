@@ -21,4 +21,25 @@ class SteamPlatformTest extends TestCase
             $this->assertIsString($data->value);
         }
     }
+//
+//
+//    public function testInvokableCases(): void
+//    {
+//
+//    }
+//
+//    public function testNames(): void
+//    {
+//
+//    }
+//
+//    public function testValues(): void
+//    {
+//
+//    }
+//
+//    public function testOptions(): void
+//    {
+//
+//    }
 }

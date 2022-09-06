@@ -4,8 +4,18 @@ declare(strict_types=1);
 
 namespace SteamMarketProviders\Enums;
 
+use ArchTech\Enums\InvokableCases;
+use ArchTech\Enums\Names;
+use ArchTech\Enums\Values;
+use ArchTech\Enums\Options;
+
 enum SteamApp: int
 {
+    use InvokableCases;
+    use Names;
+    use Values;
+    use Options;
+
     case Anyway  = 866510;
     case Monstercakes = 614910;
     case ArcaneRaise = 603750;

@@ -4,8 +4,18 @@ declare(strict_types=1);
 
 namespace SteamMarketProviders\Enums;
 
+use ArchTech\Enums\InvokableCases;
+use ArchTech\Enums\Names;
+use ArchTech\Enums\Values;
+use ArchTech\Enums\Options;
+
 enum SteamCurrency: int
 {
+    use InvokableCases;
+    use Names;
+    use Values;
+    use Options;
+
     case USD = 1;   # United States dollar
     case GBP = 2;   # British pound sterling
     case EUR = 3;   # The euro

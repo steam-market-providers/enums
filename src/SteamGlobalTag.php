@@ -4,8 +4,18 @@ declare(strict_types=1);
 
 namespace SteamMarketProviders\Enums;
 
+use ArchTech\Enums\InvokableCases;
+use ArchTech\Enums\Names;
+use ArchTech\Enums\Values;
+use ArchTech\Enums\Options;
+
 enum SteamGlobalTag: int
 {
+    use InvokableCases;
+    use Names;
+    use Values;
+    use Options;
+
     case Indie = 492;
     case Action = 19;
     case Adventure = 21;

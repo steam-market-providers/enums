@@ -4,8 +4,18 @@ declare(strict_types=1);
 
 namespace SteamMarketProviders\Enums;
 
+use ArchTech\Enums\InvokableCases;
+use ArchTech\Enums\Names;
+use ArchTech\Enums\Values;
+use ArchTech\Enums\Options;
+
 enum SteamCountry: string
 {
+    use InvokableCases;
+    use Names;
+    use Values;
+    use Options;
+
     case United_States = "US";
     case Canada = "CA";
     case Cocos_Keeling_Islands = "CC";
